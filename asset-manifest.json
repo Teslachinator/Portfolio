@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-you/static/css/main.2aad9712.css",
+    "main.js": "/portfolio-you/static/js/main.e103fc91.js",
+    "static/media/pr1Big.jpg": "/portfolio-you/static/media/pr1Big.f3454cf8ead40ba7ccf0.jpg",
+    "static/media/qqw.png": "/portfolio-you/static/media/qqw.8ca57b4717949a39cef3.png",
+    "static/media/pr1.jpg": "/portfolio-you/static/media/pr1.734e20b756be135cb8c6.jpg",
+    "static/media/sun.svg": "/portfolio-you/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
+    "static/media/moon.svg": "/portfolio-you/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
+    "static/media/gitHub.svg": "/portfolio-you/static/media/gitHub.db1e3cfa3aa61658d837d82e113dc1fe.svg",
+    "static/media/gitHub-black.svg": "/portfolio-you/static/media/gitHub-black.61157a57f0853aa9fd2f3622b730cdfc.svg",
+    "static/media/instagram.svg": "/portfolio-you/static/media/instagram.c877a8275355fec38548544a6d0ab3b4.svg",
+    "static/media/vk.svg": "/portfolio-you/static/media/vk.282842cc833783940d4fd76bff1babc1.svg",
+    "index.html": "/portfolio-you/index.html",
+    "static/media/telegram.svg": "/portfolio-you/static/media/telegram.b5a6d41f228a71225aff57de98d9637a.svg",
+    "main.2aad9712.css.map": "/portfolio-you/static/css/main.2aad9712.css.map",
+    "main.e103fc91.js.map": "/portfolio-you/static/js/main.e103fc91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aad9712.css",
+    "static/js/main.e103fc91.js"
+  ]
+}
