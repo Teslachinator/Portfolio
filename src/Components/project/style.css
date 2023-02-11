@@ -17,3 +17,6 @@
   line-height: 1.3;
   color: var(--project-card-text);
 }
+.project:hover {
+  box-shadow: var(--box-shadow2);
+}
