@@ -1,33 +1,46 @@
 .header {
   padding: 40px 0;
-  min-height: 695px;
+  /* min-height: 695px; */
+  height: max-content;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: var(--header-bg);
-  background-image: url("./../../img/qqw.png");
+  /* background-color: var(--header-bg); */
+  /* background-image: url("./../../img/qqw.png"); */
   background-repeat: repeat;
   background-size: cover;
   background-position: center center;
-
+  border-bottom: 1px solid var(--nav-border);
   color: var(--header-text);
   text-align: center;
 }
 
 .header__wrapper {
   padding: 0 15px;
-  max-width: 660px;
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__title {
+  text-align: left;
   margin-bottom: 20px;
   font-size: 50px;
   font-weight: 700;
   line-height: 1.4;
+  color: var(--text-color);
 }
-
+.header__photo img {
+  border-radius: 100px;
+}
+.header__photo {
+  max-width: 490px;
+}
 .header__title strong {
   font-size: 80px;
   font-weight: 700;
@@ -35,7 +48,7 @@
 
 .header__title em {
   font-style: normal;
-  color: var(--accent);
+  color: var(--purple);
 }
 
 .header__text {
@@ -47,3 +60,54 @@
 .header__text p + p {
   margin-top: 0.5em;
 }
+
+.header__btn a {
+  font-family: "Roboto", sans-serif;
+  color: var(--purple);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.header__btn a:hover {
+  color: var(--text-color);
+  transition: all 0.1s ease 0s;
+  padding: 15px 30px;
+}
+
+.header__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: max-content;
+  background: var(--accent);
+
+  border-radius: 15px;
+}
+
+.header__btn a:active {
+  transition: none;
+}
+.header__btn:hover {
+  background: var(--purple);
+  box-shadow: 0px 0px 20px var(--purple);
+}
+.header__btn:active {
+  box-shadow: 0px 0px 20px 5px var(--purple);
+}
+
+@media all and (max-width: 760px) {
+  .header__wrapper {
+    flex-direction: column;
+  }
+  .header__title strong {
+    font-size: 50px;
+  }
+  .header__title {
+    text-align: center;
+    font-size: 35px;
+  }
+} ;

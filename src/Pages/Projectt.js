@@ -22,9 +22,13 @@ const Projectt = (props) => {
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
           </div>
-          {project.gitHubLink && (
-            <BtnGit link="https://github.com/Teslachinator?tab=repositories" />
-          )}
+
+          <BtnGit
+            link={
+              project.gitHubLink ||
+              "https://github.com/Teslachinator?tab=repositories"
+            }
+          />
         </div>
       </div>
     </main>

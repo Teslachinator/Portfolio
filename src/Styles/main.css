@@ -1,18 +1,19 @@
 @import "./reset.css";
 @import url("https://use.typekit.net/rvv5umi.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
   /* Colors */
   --blackpure: #000;
-  --black: #171718;
+  --black: #151515;
   --black-border: #26292d;
-  --white: #fff;
-  --purple: #5c62ec;
+  --white: #e9ebec;
+  --purple: #527349;
 
   /* Light mode */
   --page-bg: var(--white);
   --text-color: var(--black);
-  --accent: var(--purple);
+  --accent: var(--black);
   --title-1: var(--accent);
 
   --project-card-bg: var(--white);
@@ -34,8 +35,14 @@
 }
 
 .dark {
-  /* Dark mode */
-  --page-bg: #252526;
+  /* Dark mode
+  #e9ebec
+  #0c151d 
+  #ffe071
+  222831
+  #8C6645
+  */
+  --page-bg: #1d1d1d;
   --text-color: var(--white);
 
   --title-1: var(--white);
@@ -208,12 +215,13 @@ body {
   text-align: center;
 }
 
-.content-list a {
-  color: var(--accent);
+.content-list a,
+.content-list p {
+  color: var(--purple);
 }
 
 .content-list__item {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
 }
 
